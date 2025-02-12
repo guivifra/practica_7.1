@@ -12,6 +12,8 @@ var animals = {
     "bird": "tweet"
 }
 
+animals["dolphin"] = "Click-click";
+
 function getAnimal() {
   return animal = _.sample(Object.entries(animals));
 }
